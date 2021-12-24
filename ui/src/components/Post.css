@@ -1,0 +1,24 @@
+.Post {
+  background-color: var(--fg-color);
+  color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25rem;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.Post-content {
+  margin: 0;
+}
+
+.Post-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: var(--mt-color);
+}
+
+.Post-info small {
+  font-size: 80%;
+}

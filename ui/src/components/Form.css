@@ -1,0 +1,51 @@
+.Form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+}
+
+.Form-text {
+  flex-grow: 1;
+  font-size: 1rem;
+  padding: 1rem;
+  border: none;
+}
+
+.Form-text:active,
+.Form-text:focus {
+  outline: 2px solid var(--ac-color);
+}
+
+.Form-button {
+  padding: 1rem 2rem;
+  margin: 0;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: var(--fg-color);
+}
+
+.Form-button--narrow {
+  padding: 1rem;
+}
+
+.Form-button:active,
+.Form-button:focus,
+.Form-button:hover {
+  outline: 2px solid var(--ac-color);
+}
+
+.Form-button:hover {
+  background-color: var(--fg-color);
+}
+
+.Form-button:disabled {
+  background-color: var(--mt-color);
+}
+
+.Form-button:disabled:active,
+.Form-button:disabled:focus,
+.Form-button:disabled:hover {
+  outline: none;
+}
